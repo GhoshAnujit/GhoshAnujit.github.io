@@ -1,0 +1,2452 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="hadoop%20last%5b1%5d_files/filelist.xml">
+<link rel=Preview href="hadoop%20last%5b1%5d_files/preview.wmf">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Anujit</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Anujit Ghosh</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2023-12-08T04:02:00Z</o:Created>
+  <o:LastSaved>2023-12-08T04:02:00Z</o:LastSaved>
+  <o:Pages>5</o:Pages>
+  <o:Words>796</o:Words>
+  <o:Characters>4540</o:Characters>
+  <o:Lines>37</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5326</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="hadoop%20last%5b1%5d_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="hadoop%20last%5b1%5d_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-IN</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:DoNotOptimizeForBrowser/>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Roboto;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536868097 1342185855 33 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:Arial;
+	mso-ansi-language:EN;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:20.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:20.0pt;
+	font-family:"Arial",sans-serif;
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h2
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:16.0pt;
+	font-family:"Arial",sans-serif;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h3
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:16.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:14.0pt;
+	font-family:"Arial",sans-serif;
+	color:#434343;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h4
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Arial",sans-serif;
+	color:#666666;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h5
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	color:#666666;
+	mso-ansi-language:EN;
+	font-weight:normal;}
+h6
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:6;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	color:#666666;
+	mso-ansi-language:EN;
+	font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:26.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:Arial;
+	mso-ansi-language:EN;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:16.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:15.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:Arial;
+	color:#666666;
+	mso-ansi-language:EN;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Arial",sans-serif;
+	mso-ascii-font-family:Arial;
+	mso-fareast-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;
+	mso-ansi-language:EN;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-page-numbers:1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-ansi-language:EN;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-IN style='tab-interval:36.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span lang=EN>&lt;!DOCTYPE html&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN>&lt;html lang=&quot;<span class=SpellE>en</span>&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN>&lt;head&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><span style='mso-spacerun:yes'>   
+</span>&lt;meta charset=&quot;UTF-8&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><span style='mso-spacerun:yes'>   
+</span>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+initial-scale=1.0&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><span style='mso-spacerun:yes'>   
+</span>&lt;title&gt;My GitHub Page&lt;/title&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN>&lt;/head&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN>&lt;body&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><span style='mso-spacerun:yes'>   
+</span>&lt;h1&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><a
+href="https://chat.openai.com/share/ca62eadd-365d-4edf-9aeb-96ed70495642"><span
+style='color:#1155CC;background:white;mso-highlight:white'>https://chat.openai.com/share/ca62eadd-365d-4edf-9aeb-96ed70495642</span></a></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Load multiple CSV files or
+tables<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>data1 = LOAD 'table1.csv' USING <span class=SpellE><span
+class=GramE>PigStorage</span></span><span class=GramE>(</span>',') AS (ID1:int,
+Product1:chararray, Quantity1:int, Price1:float);<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>data2 = LOAD 'table2.csv' USING <span class=SpellE><span
+class=GramE>PigStorage</span></span><span class=GramE>(</span>',') AS (ID2:int,
+Product2:chararray, Quantity2:int, Price2:float);<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Data Integration: Join
+multiple tables<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#3C4043'>joined_data</span></span><span lang=EN style='font-size:
+10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;
+mso-bidi-font-family:Roboto;color:#3C4043'> = JOIN data1 BY ID1, data2 BY ID2;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Data Integration: Explore
+relationships between tables<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#3C4043'>explore_data</span></span><span lang=EN style='font-size:
+10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;
+mso-bidi-font-family:Roboto;color:#3C4043'> = FOREACH <span class=SpellE>joined_data</span>
+GENERATE Product1 AS Product, Quantity1 + Quantity2 AS <span class=SpellE>TotalQuantity</span>,
+Price1 * Quantity1 + Price2 * Quantity2 AS <span class=SpellE>TotalPrice</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Advanced Analysis: Perform
+more complex analysis tasks (example)<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#3C4043'>ordered_data</span></span><span lang=EN style='font-size:
+10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;
+mso-bidi-font-family:Roboto;color:#3C4043'> = ORDER <span class=SpellE>explore_data</span>
+BY <span class=SpellE>TotalQuantity</span> DESC;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#3C4043'>top_records</span></span><span lang=EN style='font-size:
+10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;
+mso-bidi-font-family:Roboto;color:#3C4043'> = LIMIT <span class=SpellE>ordered_data</span>
+10;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Store the advanced
+analysis results<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>STORE <span class=SpellE>top_records</span> INTO '<span
+class=SpellE>output_advanced_analysis</span>';<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>Reference codes<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Load CSV file with headers<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>data = LOAD 'input_data.csv' USING <span class=SpellE><span
+class=GramE>PigStorage</span></span><span class=GramE>(</span>',') AS (ID:int, <span
+class=SpellE>Name:chararray</span>, <span class=SpellE>Age:int</span>, <span
+class=SpellE>Salary:float</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Transformation: Filter out
+unnecessary columns<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#3C4043'>filtered_data</span></span><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'> = FOREACH data GENERATE Age,
+Salary;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Transformation: Group by
+age and calculate average salary<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#3C4043'>grouped_data</span></span><span lang=EN style='font-size:
+10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;
+mso-bidi-font-family:Roboto;color:#3C4043'> = GROUP <span class=SpellE>filtered_data</span>
+BY Age;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:115%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#3C4043'>aggregated_data</span></span><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'> = FOREACH <span
+class=SpellE>grouped_data</span> GENERATE group AS Age, <span class=GramE>AVG(</span><span
+class=SpellE>filtered_data.Salary</span>) AS <span class=SpellE>AvgSalary</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span lang=EN
+style='font-size:10.5pt;line-height:115%;font-family:Roboto;mso-fareast-font-family:
+Roboto;mso-bidi-font-family:Roboto;color:#3C4043'>-- Store the transformed data<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>STORE <span class=SpellE>aggregated_data</span> INTO '<span
+class=SpellE>output_transformed_data</span>';<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>Max min map <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#6A9955'>#!/</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'>usr/bin/env python3.6<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>import</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> sys<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Initialize minimum and maximum variables with
+initial values<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>min_value</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>float</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'inf'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>max_value</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>float</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'-inf'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>for</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> line </span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#C586C0'>in</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+<span class=SpellE><span class=GramE>sys.stdin</span></span>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Remove leading and
+trailing whitespace and split the line into words<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span>values </span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#D4D4D4'>=</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> <span class=SpellE><span class=GramE>line.strip</span></span>().split()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>for</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> value </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#C586C0'>in</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+values:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Convert the value to a
+float<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>try</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>           
+</span>num </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>=</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#4EC9B0'>float</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(value)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>except</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>ValueError</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>            </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Skip non-numeric values<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>            </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>continue<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Update minimum and
+maximum values<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span><span
+class=SpellE>min_value</span> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+</span><span class=GramE><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#DCDCAA'>min</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span></span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>min_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>, num)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span><span
+class=SpellE>max_value</span> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+</span><span class=GramE><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#DCDCAA'>max</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span></span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>max_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>, num)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Emit the minimum and maximum values<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#DCDCAA'>print</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#569CD6'>f</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CE9178'>&quot;min</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#D7BA7D'>\t</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>{</span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>min_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>}</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CE9178'>&quot;</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#DCDCAA'>print</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#569CD6'>f</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CE9178'>&quot;max</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#D7BA7D'>\t</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>{</span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>max_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>}</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CE9178'>&quot;</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>Max min red<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#6A9955'>#!/</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'>usr/bin/env python3.6<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>import</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>sys<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Initialize minimum and maximum variables with
+initial values<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>min_value</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>float</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'inf'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>max_value</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>float</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'-inf'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>for</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>line</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#DCDCAA'>in</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#4EC9B0'>sys</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>stdin</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'>key</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>, </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>value</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>=</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span
+class=SpellE><span class=GramE><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>line</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>strip</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>().</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#DCDCAA'>split</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CE9178'>'</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#D7BA7D'>\t</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>if</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>key</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>==</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'min'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>min_value</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=GramE><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#DCDCAA'>min</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span></span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>min_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>, </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#4EC9B0'>float</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>value</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>))<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#C586C0'>elif</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>key</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>==</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'max'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>max_value</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=GramE><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#DCDCAA'>max</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span></span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>max_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>, </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#4EC9B0'>float</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>(</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>value</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>))<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Emit the final minimum and maximum values<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>print</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#569CD6'>f</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CE9178'>&quot;Minimum</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CE9178'>: </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>{</span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>min_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>}</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CE9178'>&quot;</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>print</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#569CD6'>f</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CE9178'>&quot;Maximum</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CE9178'>: </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>{</span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>max_value</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#569CD6'>}</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CE9178'>&quot;</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>Word count map <o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#6A9955'>#!/</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'>usr/bin/python3.6<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>import</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>sys<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Input comes from standard input<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>for</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>line</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#DCDCAA'>in</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#4EC9B0'>sys</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>stdin</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Remove leading and
+trailing whitespace<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'>line</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+</span><span class=SpellE><span class=GramE><span lang=EN style='font-size:
+10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>line</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>strip</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Split the line into
+words<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'>words</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+</span><span class=SpellE><span class=GramE><span lang=EN style='font-size:
+10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>line</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>split</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Output word count pairs<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>for</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>word</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#C586C0'>in</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>words</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Send the word count to
+the reducer<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#DCDCAA'>print</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>(</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#569CD6'>f</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CE9178'>&quot;</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#569CD6'>{</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>word</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#569CD6'>}</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D7BA7D'>\t</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CE9178'>1&quot;</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>Word <span class=GramE>count</span> red <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#6A9955'>#!/</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'>usr/bin/python3.6<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>import</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>sys<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Initialize variables to store the current word
+and count<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_word</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#569CD6'>None<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#B5CEA8'>0<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Create a dictionary to hold word counts<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>word_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> {}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Input comes from the mapper as tab-delimited <span
+class=SpellE><span class=GramE>word,count</span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>for</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>line</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#DCDCAA'>in</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#4EC9B0'>sys</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>stdin</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Remove leading and
+trailing whitespace<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'>line</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+</span><span class=SpellE><span class=GramE><span lang=EN style='font-size:
+10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>line</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>strip</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>()<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Split the input received
+into word and count<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'>word</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>, </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>count</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>=</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span
+class=SpellE><span class=GramE><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>line</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>split</span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CE9178'>'</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D7BA7D'>\t</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CE9178'>'</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>, </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#B5CEA8'>1</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Convert count (currently
+a string) to int<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>try</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'>count</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+</span><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#4EC9B0'>int</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>(</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>count</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>except</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#4EC9B0'>ValueError</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>continue<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Check if the word is the
+same as the current word being processed<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>if</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>current_word</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>==</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>
+</span><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'>word</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>+=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>count<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>else</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># If the word changes, add
+the count for the previous <span class=GramE>word</span> to the dictionary<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#C586C0'>if</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'> </span><span class=SpellE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>current_word</span></span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>            </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>word_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>[</span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_word</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>] </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>word_count</span><span lang=EN style='font-size:
+10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>get</span></span></span><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_word</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>, </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#B5CEA8'>0</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>) </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>+</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#6A9955'># Reset current word and
+count for the new word<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>count<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>        </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_word</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>word<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Add the count for the last word encountered<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>if</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=SpellE><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>current_word</span></span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>==</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>word</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>word_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>[</span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_word</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>] </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span class=SpellE><span class=GramE><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>word_count</span><span lang=EN style='font-size:
+10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>.</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>get</span></span></span><span
+class=GramE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span></span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_word</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>, </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#B5CEA8'>0</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>) </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D4D4D4'>+</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>current_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#9CDCFE'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Sort the dictionary by count in descending order<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>sorted_word_count</span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> {</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>k</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>: </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>v</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#C586C0'>for</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>k</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>, </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>v</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>in</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>sorted</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(</span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>word_<span
+class=GramE>count<span style='color:#CCCCCC'>.</span><span style='color:#DCDCAA'>items</span></span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>(), </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>key</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#569CD6'>lambda</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>item</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>: </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>item</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>[</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#B5CEA8'>1</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'>], </span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#9CDCFE'>reverse</span><span lang=EN style='font-size:10.5pt;line-height:
+135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#D4D4D4'>=</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#569CD6'>True</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>)}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#6A9955'># Output the words and their counts in descending
+order<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#C586C0'>for</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>word</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>, </span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>count</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#CCCCCC'> </span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#DCDCAA'>in</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'> </span><span
+class=SpellE><span lang=EN style='font-size:10.5pt;line-height:135%;font-family:
+"Courier New";mso-fareast-font-family:"Courier New";color:#9CDCFE'>sorted_word_<span
+class=GramE>count<span style='color:#CCCCCC'>.</span><span style='color:#DCDCAA'>items</span></span></span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>():<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><span style='mso-spacerun:yes'>    </span></span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#DCDCAA'>print</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'>(</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#569CD6'>f</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CE9178'>&quot;</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#569CD6'>{</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>word</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#569CD6'>}</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#D7BA7D'>\t</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#569CD6'>{</span><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#9CDCFE'>count</span><span lang=EN style='font-size:10.5pt;
+line-height:135%;font-family:"Courier New";mso-fareast-font-family:"Courier New";
+color:#569CD6'>}</span><span lang=EN style='font-size:10.5pt;line-height:135%;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#CE9178'>&quot;</span><span
+lang=EN style='font-size:10.5pt;line-height:135%;font-family:"Courier New";
+mso-fareast-font-family:"Courier New";color:#CCCCCC'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:135%;background:#1F1F1F'><span lang=EN
+style='font-size:10.5pt;line-height:135%;font-family:"Courier New";mso-fareast-font-family:
+"Courier New";color:#CCCCCC'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:10.5pt;line-height:115%;
+font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;
+color:#3C4043'>jar-</span><span class=SpellE><span lang=EN>hadoop</span></span><span
+lang=EN> jar /<span class=SpellE>usr</span>/<span class=SpellE>hdp</span>/current/<span
+class=SpellE>hadoop</span>-<span class=SpellE>mapreduce</span>-client/hadoop-streaming.jar
+-file mapper.py -mapper mapper.py -file reducer.py -reducer reducer.py -input
+/user/<span class=SpellE>athira</span>/num.txt -output /user/<span
+class=SpellE>athira</span>/output</span></p>
+
+<p class=MsoNormal><span lang=EN><span style='mso-spacerun:yes'> </span><span
+class=SpellE>hadoop</span> fs -<span class=SpellE>copyToLocal</span>
+/user/athira/mapper.py</span></p>
+
+<p class=MsoNormal><span lang=EN>[<span class=SpellE>maria_dev@sandbox-hdp</span>
+<span class=GramE>~]$</span><span style='mso-spacerun:yes'>     </span><span
+class=SpellE>hadoop</span> fs -<span class=SpellE>copyToLocal</span>
+/user/athira/reducer.py</span></p>
+
+<p class=MsoNormal><span lang=EN>[<span class=SpellE>maria_dev@sandbox-hdp</span>
+<span class=GramE>~]$</span><span style='mso-spacerun:yes'>     </span><span
+class=SpellE>hadoop</span> fs -<span class=SpellE>copyToLocal</span> /user/<span
+class=SpellE>athira</span>/num.txt<span style='mso-spacerun:yes'>  </span></span></p>
+
+<p class=MsoNormal><span lang=EN><span
+style='mso-spacerun:yes'> </span>Deleting - rm <span class=GramE>filename ;</span></span></p>
+
+<p class=MsoNormal><span lang=EN>Editing - vi filename;</span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN>Database <span class=GramE>queries ;</span></span></p>
+
+<p class=MsoNormal><span lang=EN>Create database <span class=SpellE>dtabasename</span>;</span></p>
+
+<p class=MsoNormal><span lang=EN>Use <span class=SpellE>dtabasename</span>;</span></p>
+
+<p class=MsoNormal><span lang=EN>Show tables;</span></p>
+
+<p class=MsoNormal><span lang=EN>Drop database </span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN>!&lt;</span></span><span
+lang=EN>/h1&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN>&lt;/body&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN>&lt;/html&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
